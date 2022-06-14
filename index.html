@@ -1,5 +1,3 @@
-# Glastr1er.github.io
-
 <!DOCTYPE html>
 <html> 
  <head>
@@ -27,7 +25,7 @@ var thumb = false;
 var level = 1;
 var instructions;
 var purrfectionCounter = 0;
-var transit = true;
+var transit = false;
 var go = 0;
 var counter = 0;
 var possesser = -1;
@@ -331,7 +329,7 @@ function nextLevel(){
     instructions = "";
     pendulums = [];
     if (l === 1){
-                currLevel = [newPendulum(150, 300, 0, "normal", 1), newPendulum(450, 300, 2, "normal", 2),];
+                currLevel = [newPendulum(150, 300, 0, "normal", 1), newPendulum(450, 300, 3, "normal", 2),];
                 instructions = "Make sure these pendulums swing at the\nsame time. In other words, syncrhonize them.";
             }
     
